@@ -1,0 +1,16 @@
+{
+  "name": "enosika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "purgecss": "npx tailwindcss build tailwind.css -o public/css/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^7.0.34",
+    "tailwindcss": "^1.8.10"
+  }
+}
